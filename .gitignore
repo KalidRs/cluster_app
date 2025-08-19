@@ -1,0 +1,62 @@
+# Entorno virtual de Python
+venv/
+.env/
+ENV/
+env.bak/
+.venv/
+
+# Archivos de Python generados
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Streamlit
+.streamlit/
+
+# Datos y configuraciones locales
+data/local_*.json
+*.csv
+*.pickle
+*.pkl
+
+# Archivos de IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+*.code-workspace
+
+# Node/React (si aplica)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+dist/
+.cache/
+.svelte-kit/
+/build/
+/public/build/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
